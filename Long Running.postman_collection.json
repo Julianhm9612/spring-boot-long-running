@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "545fb643-ad4b-49c5-b46c-4a9619f6760a",
+		"name": "Long Running",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21580616"
+	},
+	"item": [
+		{
+			"name": "Every request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/every-request?dummy=test-value",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"every-request"
+					],
+					"query": [
+						{
+							"key": "dummy",
+							"value": "test-value"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Every request response",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/every-request-response?dummy=test-value",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"every-request-response"
+					],
+					"query": [
+						{
+							"key": "dummy",
+							"value": "test-value"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Every request response execution time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/every-request-response-execution-time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"every-request-response-execution-time"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
